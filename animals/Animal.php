@@ -9,7 +9,6 @@ class Animal {
     }
 
     public function index() {
-      // $bab = ["anjing", "babi"];
       foreach($this->animal as $a) {
         echo "- " . $a . "</br>";
       } 
